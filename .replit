@@ -1,4 +1,4 @@
-run = "npm run build && npm start"
+run = "npm run install:all && npm run build && npm start"
 entrypoint = "server/src/index.ts"
 modules = ["nodejs-20", "web", "nix"]
 
@@ -12,5 +12,11 @@ PORT = "3000"
 localPort = 3000
 externalPort = 80
 
+<<<<<<< HEAD
 [agent]
 expertMode = true
+=======
+[deployment]
+run = ["sh", "-c", "npm run install:all && npm run build && npm start"]
+build = ["sh", "-c", "echo 'ready'"]
+>>>>>>> 637cd85e1af7170b5c0b27bd7fe845cf167b573c
