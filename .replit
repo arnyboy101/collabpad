@@ -14,7 +14,3 @@ externalPort = 80
 
 [agent]
 expertMode = true
-
-[deployment]
-run = ["sh", "-c", "npm run install:all && npm run build && npm start"]
-build = ["sh", "-c", "echo done"]
