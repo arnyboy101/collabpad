@@ -4,6 +4,14 @@
 
 ## Submission Details
 
+### Live Prototype URL
+
+https://collabpad--arnavsam.replit.app
+
+### Source Code URL
+
+https://github.com/arnyboy101/collabpad
+
 ### Tech Stack Summary
 
 - Backend: Node.js + TypeScript, Express, `ws` (raw WebSocket library), `better-sqlite3` for persistence
@@ -13,7 +21,7 @@
 
 ### How to Test
 
-1. Open the app at [URL]. You'll land on the Dashboard.
+1. Open the app at https://collabpad--arnavsam.replit.app. You'll land on the Dashboard.
 2. Click "New document" to create a document. You'll be taken to the editor.
 3. Copy the URL from your browser and open it in a second tab (or a different browser).
 4. Start typing in Tab 1. You should see the changes appear in Tab 2 within about a second, and vice versa.

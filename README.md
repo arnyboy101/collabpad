@@ -2,6 +2,10 @@
 
 A real-time collaborative notes app. Multiple users can open the same document in different browser tabs and see each other's changes live via WebSockets.
 
+**Live app:** https://collabpad--arnavsam.replit.app
+
+**Source code:** https://github.com/arnyboy101/collabpad
+
 ## Tech Stack
 
 - **Backend**: Node.js + TypeScript, Express, `ws` (raw WebSocket library)
